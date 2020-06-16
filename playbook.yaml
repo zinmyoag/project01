@@ -1,0 +1,6 @@
+-
+  name: Check connectivity for target server
+  hosts: all
+  tasks:
+    - name: ping
+      ping:
